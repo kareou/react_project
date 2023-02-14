@@ -4,6 +4,8 @@ import {FaInstagramSquare} from 'react-icons/fa'
 import {AiFillTwitterSquare} from 'react-icons/ai'
 import {TbBrandGmail} from 'react-icons/tb'
 import {MdOutlineHotelClass} from 'react-icons/md'
+import Slider from './slider'
+
 function home() {
   return (
     <motion.div className='home'
@@ -22,6 +24,7 @@ function home() {
       <AiFillTwitterSquare className='twitter'/>
       <TbBrandGmail className='roblox'/>
       </div>
+      <Slider/>
     </motion.div>
   )
 }

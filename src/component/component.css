@@ -128,3 +128,49 @@ html{
 .biMeteor{
     color: blueviolet;
 }
+
+.simpel{
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+    width: 50%;
+    margin-left: 45%;
+    box-shadow: -40px -15px rgba(137, 43, 226, 0.425);
+}
+
+.img1{
+    background-image: url(../../../../pfe_img/pexels-justin-hamilton-205342.jpg);
+    background-size: 100%;
+}
+
+.img2{
+    background: url(../../../../pfe_img/hotel\ room.jpg);
+    background-size: 100%;
+}
+
+.img3{
+    background-image: url(../../../../pfe_img/Rooms\ &\ Suites\ -\ Luxury\ Hotel\ Accommodation\ -\ Aman\ Tokyo.jpg);
+    background-size: 100%;
+}
+
+.img4{
+    background-image: url(../../../../pfe_img/The\ Top\ Hotels\ in\ Beijing.jpg);
+}
+
+.img5{
+    background-image: url(../../../../pfe_img/pool.jpg);
+}
+
+.simpel > div{
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(0.25, 0.4, 0.45, 1.4);
+}
+
+.simpel > div:hover{
+    flex: 5;
+    border-radius: 1rem;
+}
