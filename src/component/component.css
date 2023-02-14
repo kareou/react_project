@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-image: url(../../../../pfe_img/08-Render-Exterior3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navbar{
+    width: 100%;
+    height: 7vh;
+    -webkit-backdrop-filter: blur(8px);
+    backdrop-filter: blur(8px);
+}
+
+.navbar ul{
+    padding-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    text-decoration: none;
+}
+
+.navbar ul li{
+    list-style: none;
+}
+
+.navbar ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.navbar .ho:focus{
+    color:blueviolet;
+    border-bottom: solid 1px blueviolet;
+}
+
+.navbar .serv:focus{
+    color:limegreen;
+    border-bottom: solid 1px limegreen;
+}
+
+.navbar .prof:focus{
+    color:palevioletred;
+    border-bottom: solid 1px palevioletred;
+}
+
+.navbar .abo:focus{
+    color:crimson;
+    border-bottom: solid 1px crimson;
+}
+
+.navbar .ho:hover{
+    color:blueviolet;
+    border-bottom: solid 1px blueviolet;
+}
+
+.navbar .serv:hover{
+    color:limegreen;
+    border-bottom: solid 1px limegreen;
+}
+
+.navbar .prof:hover{
+    color:palevioletred;
+    border-bottom: solid 1px palevioletred;
+}
+
+.navbar .abo:hover{
+    color:crimson;
+    border-bottom: solid 1px crimson;
+}
+
+.home{
+    margin-top: 5vh;
+    height: 30%;
+}
+
+.home .name{
+    padding-right: 90vh;
+    font-size: 3.5rem;
+    color: white;
+}
+
+.home .slag{
+    display: flex;
+    margin-left: 30vh;
+    font-size: 1rem;
+    border-bottom: solid 1px rgba(255, 255, 255, 0.589);
+    width: 10%;
+    color: white;
+}
+
+.home .slag h1{
+    padding-left: 10px;
+}
+
+.home .slag .dev{
+    color: blueviolet;
+}
+
+.home .discord{
+    color: rgb(255, 65, 128);
+    font-size: 3rem;
+    margin-right: 3vh;
+}
+
+.home .twitter{
+    color: rgb(25, 185, 238);
+    font-size: 3rem;
+    margin-right: 3vh;
+}
+
+.home .roblox{
+    color: rgb(247, 55, 55);
+    font-size: 3rem;
+}
+
+.icone{
+    padding-top: 5vh;
+    padding-right: 100vh;
+}
+
+.biMeteor{
+    color: blueviolet;
+}
