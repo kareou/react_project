@@ -4,9 +4,10 @@
 }
 
 html{
-    background-image: url(../../../../pfe_img/08-Render-Exterior3.jpg);
+    background-image: url(../photo/08-Render-Exterior3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .navbar{
@@ -14,6 +15,8 @@ html{
     height: 7vh;
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
+    position: fixed;
+    z-index: 1;
 }
 
 .navbar ul{
@@ -76,7 +79,7 @@ html{
 }
 
 .home{
-    margin-top: 5vh;
+    padding-top: 10vh;
     height: 30%;
 }
 
@@ -139,26 +142,26 @@ html{
 }
 
 .img1{
-    background-image: url(../../../../pfe_img/pexels-justin-hamilton-205342.jpg);
+    background-image: url(../photo/Rooms\ &\ Suites\ -\ Luxury\ Hotel\ Accommodation\ -\ Aman\ Tokyo.jpg);
     background-size: 100%;
 }
 
 .img2{
-    background: url(../../../../pfe_img/hotel\ room.jpg);
+    background: url(../photo/hotel\ room.jpg);
     background-size: 100%;
 }
 
 .img3{
-    background-image: url(../../../../pfe_img/Rooms\ &\ Suites\ -\ Luxury\ Hotel\ Accommodation\ -\ Aman\ Tokyo.jpg);
+    background-image: url(../photo/pexels-justin-hamilton-205342.jpg);
     background-size: 100%;
 }
 
 .img4{
-    background-image: url(../../../../pfe_img/The\ Top\ Hotels\ in\ Beijing.jpg);
+    background-image: url(../photo/The\ Top\ Hotels\ in\ Beijing.jpg);
 }
 
 .img5{
-    background-image: url(../../../../pfe_img/pool.jpg);
+    background-image: url(../photo/pool.jpg);
 }
 
 .simpel > div{
@@ -173,4 +176,51 @@ html{
 .simpel > div:hover{
     flex: 5;
     border-radius: 1rem;
+}
+
+/* service style part*/
+
+.service{
+    padding-top: 10vh;
+    padding-bottom: 100%;
+    background-color: #282c34;
+    height: 100%;
+}
+
+.service h1{
+    color: white;
+    font-size: 3rem;
+    text-shadow: 0 0 10px black;
+}
+
+.service .aboutus{
+    padding-top: 5vh;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.service .icones{
+    font-size: 4rem;
+    color: white;
+    transition: 1s;
+}
+
+.fame{
+    background-image: linear-gradient(to left, rgba(128, 0, 128, 0.459),rgba(255, 156, 89, 0.459)) , url(../photo/08-Render-Exterior3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    border-radius: 3rem;
+    box-shadow: 0 0 10px;
+    transition: 1s;
+}
+
+.service .fame:hover .icones {
+    color: purple;
+}
+
+.service .fame p{
+    color: white;
 }

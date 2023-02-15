@@ -4,6 +4,7 @@ import About from './about';
 import Profile from './profile';
 import Service from './service';
 import Home from './home';
+import Nopage from './nopage'
 import {AnimatePresence} from 'framer-motion'
 
 function All() {
@@ -16,6 +17,7 @@ function All() {
             <Route path='/profile' element={<Profile/>}/>
             <Route path='/service' element={<Service/>}/>
             <Route path='/about' element={<About/>}/>
+            <Route path='*' element={<Nopage/>}/>
             </Routes>
         </AnimatePresence>
     )
