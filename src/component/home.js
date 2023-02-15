@@ -11,7 +11,7 @@ function home() {
     <motion.div className='home'
     initial={{width : 0}}
     animate={{width : '100%'}}
-    exit={{x : '100%',  transition :{duration : 0.1} }}
+    exit={{x : '100%',  transition :{duration : 0.2} }}
     >
       <h1 className='name'> <MdOutlineHotelClass className='biMeteor'/>hotel naem</h1>
       <div className='slag'>

@@ -4,10 +4,9 @@
 }
 
 html{
-    background-image: url(../photo/08-Render-Exterior3.jpg);
+    background-image: url(../../../../pfe_img/08-Render-Exterior3.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
 }
 
 .navbar{
@@ -15,8 +14,6 @@ html{
     height: 7vh;
     -webkit-backdrop-filter: blur(8px);
     backdrop-filter: blur(8px);
-    position: fixed;
-    z-index: 1;
 }
 
 .navbar ul{
@@ -79,7 +76,7 @@ html{
 }
 
 .home{
-    padding-top: 10vh;
+    margin-top: 5vh;
     height: 30%;
 }
 
@@ -142,26 +139,26 @@ html{
 }
 
 .img1{
-    background-image: url(../photo/Rooms\ &\ Suites\ -\ Luxury\ Hotel\ Accommodation\ -\ Aman\ Tokyo.jpg);
+    background-image: url(../../../../pfe_img/pexels-justin-hamilton-205342.jpg);
     background-size: 100%;
 }
 
 .img2{
-    background: url(../photo/hotel\ room.jpg);
+    background: url(../../../../pfe_img/hotel\ room.jpg);
     background-size: 100%;
 }
 
 .img3{
-    background-image: url(../photo/pexels-justin-hamilton-205342.jpg);
+    background-image: url(../../../../pfe_img/Rooms\ &\ Suites\ -\ Luxury\ Hotel\ Accommodation\ -\ Aman\ Tokyo.jpg);
     background-size: 100%;
 }
 
 .img4{
-    background-image: url(../photo/The\ Top\ Hotels\ in\ Beijing.jpg);
+    background-image: url(../../../../pfe_img/The\ Top\ Hotels\ in\ Beijing.jpg);
 }
 
 .img5{
-    background-image: url(../photo/pool.jpg);
+    background-image: url(../../../../pfe_img/pool.jpg);
 }
 
 .simpel > div{
@@ -177,6 +174,126 @@ html{
     flex: 5;
     border-radius: 1rem;
 }
+
+.navbar .btn{
+    width: 6%;
+    height: 4vh;
+    background: transparent;
+    color: white;
+    border-radius: 1vh;
+    border-color: blueviolet;
+    transition: .8s ease-in-out;
+}
+
+.navbar .btn:hover{
+    background-color: white;
+    color: black;
+    border: transparent;
+}
+
+/*login layout part*/
+
+.ReactModal__Overlay {
+    opacity: 0;
+    transform: translateY(100px);
+    transition: all 400ms ease-in-out;
+    background-color: red;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.ReactModal__Content {
+    position: absolute;
+    left: 2.5rem;
+    right: 2.5rem;
+    top: 2.5rem;
+    bottom: 2.5rem;
+    box-shadow: 0 0 10px 0 rgba(0,0,97,0.5);
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    width: 50%;
+    margin-left: 20%;
+    text-align: center;
+    background: black;
+}
+
+.ReactModal__Overlay--after-open{
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+.ReactModal__Overlay--before-close{
+    opacity: 0;
+    transform: translateY(100px);
+}
+
+.ReactModal__Content input{
+    height: 5vh;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    padding: 1vh;
+}
+
+.ReactModal__Content button{
+    height: 5vh;
+    margin-bottom: 1rem;
+}
+
+.ReactModal__Content .exit{
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    margin-left: 90%;
+    width: 5%;
+    transition: .5s ease-in;
+}
+
+.ReactModal__Content .exit:hover{
+    background-color: rgba(128, 128, 128, 0.24);
+    border-radius: 7px;
+}
+
+.ReactModal__Content .logall{
+    height: 100%;
+    width: 100%;
+}
+
+.logall .action button{
+    width: 15%;
+    height: 7vh;
+    border: none;
+    margin-right: 1rem;
+    border-radius: 5px;
+    background-color: rgb(250, 135, 135);
+    box-shadow: 0 0 10px;
+    transition: .3s ease-in;
+}
+
+.logall .action button:hover{
+    width: 15.5%;
+    height: 7.5vh;
+}
+
+
+.logall .action input{
+    width: 15%;
+    height: 7vh;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(149, 255, 135);
+    box-shadow: 0 0 10px;
+    transition: .3s ease-in;
+}
+
+.logall .action input:hover{
+    width: 15.5%;
+    height: 7.5vh;
+}
+
 
 /* service style part*/
 
